@@ -54,8 +54,15 @@ table {
   src: url('type/LeagueGothic-Regular') format('embedded-opentype');
 }
 
+#wrapper {
+	margin: 0;
+	padding: 2em, 1em, 2em;
+}
+
 #topheader {
-	background-image: url("csimages/beans.jpg");
+	display: block;
+	height: 200px;
+	background-image: url("/coffee/csimages/beans.jpg");
 	text-align: center;
 }
 
@@ -73,6 +80,7 @@ a:hover {
 }
 
 #topnav {
+	display: block;
 	background-color: #663300;
 	font-family: sans-serif;
 	color: #b69f8a;

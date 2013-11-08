@@ -47,6 +47,26 @@ table {
 	border-spacing: 0;
 }
 
+#wrapper {
+	margin: 0;
+	padding: 2em, 1em, 2em;
+}
+
+#topnav {
+	font-color: black;
+	text-align: right;
+}
+
+#sidebar {
+	font-color: black;
+	text-align: left;
+}
+
+#bodypost {
+	font-color: black;
+	text-align: left;
+}
+
 p {
 
 
