@@ -47,9 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+	font-family: 'League-Gothic';
+	src:"League-Gothic/LeagueGothic-Regular.otf";
+}
+
 #wrapper {
 	margin: 0;
 	padding: 2em, 1em, 2em;
+	font-family: 'Leage-Gothic';
 }
 
 #topnav {
@@ -58,24 +64,48 @@ table {
 	text-align: right;
 }
 
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
 #sidebar {
 	font-color: black;
 	text-align: left;
+	margin: 1em;
+	font-family: 'League-Gothic';
+	line-height: 200%;
+	float: left;
+	clear: left;
 }
 
 #bodypost {
 	font-color: black;
 	text-align: left;
+	margin-left: 22em;
+	margin top: 2em;
+	float: left;
+	clear: right;
 }
 
 #topheader {
 	display: block;
 	border-bottom: 1px solid black;
+	margin-top: 1em;
 }
 
 #footer {
 	display: block;
 	border-top: 1px solid black;
+	text-align: left;
 }
 p {
 

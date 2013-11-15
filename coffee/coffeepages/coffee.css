@@ -48,12 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-#font-face {
-  font-family: 'league-gothic';
-  src: url('type/LeagueGothic-Regular');
-  src: url('type/LeagueGothic-Regular') format('embedded-opentype');
-}
-
 #wrapper {
 	margin: 0;
 	padding: 2em, 1em, 2em;
@@ -62,7 +56,7 @@ table {
 #topheader {
 	display: block;
 	height: 200px;
-	background-image: url("/coffee/csimages/beans.jpg");
+	background: url("csimages/beans.jpg");
 	text-align: center;
 }
 
@@ -81,7 +75,7 @@ a:hover {
 
 #topnav {
 	display: block;
-	background-color: #663300;
+	background-color: #220B02;
 	font-family: sans-serif;
 	color: #b69f8a;
 }
@@ -93,15 +87,15 @@ h2 {
 }
 
 p {
-	color: black;
 	font-family: sans-serif;
 	text-align: center;
 }
 
 #footer {
-	background-color: #663300;
+	background-color: #220B02;
 	font-family: sans-serif;
-	font-color: #b69f8a;
+	color: #b69f8a;
+	text-align: center;
 }
 
 
