@@ -1,0 +1,31 @@
+#header {
+    border-radius: 5px;
+    border: 2px solid #A75C56;
+    background-color: #E89C84;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1 ;
+}
+.left {
+    border-radius: 5px;
+    background-color: #EAB06E;
+    width: 22%;
+	height: 400px;
+	float: left;
+}
+.right {
+    border-radius: 5px;
+    border: 2px solid #E89C84;
+    background-color: #A75C56;
+    width:70%;
+    height: 800;
+    float: right;
+}
+#footer {
+   border-radius: 5px;
+   background-color: #F5C972;
+   height: 25px;
+   width: 100%;
+   clear: both;
+}

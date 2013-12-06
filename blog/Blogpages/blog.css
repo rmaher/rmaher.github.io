@@ -48,28 +48,41 @@ table {
 }
 
 @font-face {
-	font-family: 'League-Gothic';
-	src:"League-Gothic/LeagueGothic-Regular.otf";
+    font-family: 'league_gothicregular';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-regular-webfont.woff') format('woff'),
+         url('leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 #wrapper {
-	margin: 0;
 	padding: 2em, 1em, 2em;
-	font-family: 'Leage-Gothic';
+	min-height: 100%;
+	width: 100%;
+	height: auto;
 }
 
-#topnav {
-	display: block;
+#topnav-ul {
 	font-color: black;
 	text-align: right;
+	float: right;
+	display: inline-block;
 }
+
 
 a:link {
 	color: black;
+	text-decoration: none;
 }
 
 a:visited {
-	color: gray;
+	color: #009900;
+	text-decoration: none;
 }
 
 a:hover {
@@ -81,33 +94,57 @@ a:hover {
 	font-color: black;
 	text-align: left;
 	margin: 1em;
-	font-family: 'League-Gothic';
 	line-height: 200%;
 	float: left;
 	clear: left;
+	width: 25%;
+	font-family: 'league_gothicregular';
 }
 
-#bodypost {
+p {
 	font-color: black;
 	text-align: left;
 	margin-left: 22em;
 	margin top: 2em;
 	float: left;
 	clear: right;
+	width: 75%;
 }
 
 #topheader {
-	display: block;
 	border-bottom: 1px solid black;
 	margin-top: 1em;
+	font-family: 'league_gothicregular';
 }
 
 #footer {
 	display: block;
 	border-top: 1px solid black;
 	text-align: left;
+	width: 100%;
+	font-family: 'league_gothicregular';
 }
-p {
 
+h5 {
+	font: bold;
+	font-size: 80%;
+	font-family: 'league_gothicregular';
+}
 
+h3 {
+	font: bold;
+	font-size: 200%;
+	font-family: 'league_gothicregular';
+}
+
+h1 {
+	font-family: 'league_gothicregular';
+}
+
+#bodypost {
+	margin-top: 2em;
+	margin-left: 18em;
+	margin-bottom: 2em;
+	font-family: 'league_gothicregular';
+	width: 75%;
 }

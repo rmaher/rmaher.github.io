@@ -50,7 +50,9 @@ table {
 
 #wrapper {
 	margin: 0;
-	padding: 2em, 1em, 2em;
+	position: relative;
+	height: 100%;
+	width: 100%;
 }
 
 #topheader {
@@ -58,14 +60,18 @@ table {
 	height: 200px;
 	background: url("csimages/beans.jpg");
 	text-align: center;
+	word-spacing: 4em;
 }
+
 
 a:link {
 	color: #b69f8a;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #654634;
+	text-decoration: none;
 }
 
 a:hover {
@@ -80,6 +86,19 @@ a:hover {
 	color: #b69f8a;
 }
 
+.col1 {
+	width: 41%;
+	margin-left: 4%;
+	margin-right: 6%;
+}
+
+.col2 {
+	width: 41%;
+	margin-left: 6%;
+	margin-right: 4%;
+	position: relative;
+}
+
 h2 {
 	color: #663300;
 	font-family: verdana;
@@ -89,6 +108,7 @@ h2 {
 p {
 	font-family: sans-serif;
 	text-align: center;
+	display: block;
 }
 
 #footer {
@@ -96,6 +116,9 @@ p {
 	font-family: sans-serif;
 	color: #b69f8a;
 	text-align: center;
+	width:100%;
+	height: 7em;
+
 }
 
 
