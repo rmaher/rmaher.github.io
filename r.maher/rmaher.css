@@ -1,3 +1,10 @@
+/******TOC*******/
+/*
+1. browser notes
+2. basic specs
+
+/*1*/
+/* HTML5 display-role reset for older browsers */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,6 +55,7 @@ table {
 	border-spacing: 0;
 }
 
+/*2*/
 #wrapper {
 	margin: 0;
 	position: relative;
@@ -55,83 +63,31 @@ table {
 	width: 100%;
 }
 
-#topheader {
-	display: block;
-	height: 30%;
-	background: url("csimages/beans.jpg");
-	text-align: center;
+#topnav-ul {
+	display: inline-block;
+	font-family: Georgia;
+	text-decoration: bold;
+	text-align: left;
+	border-bottom: .2em solid black;
+	width: 100%;
+
 }
 
-
 a:link {
-	color: #b69f8a;
+	color: black;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #654634;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #b69f8a;
+	color: #cc00cc;
 	text-decoration: underline;
 }
 
-#topnav {
-	display: block;
-	background-color: #220B02;
-	font-family: serif;
-	color: #b69f8a;
-	line-height: 150%;
-	text-align: center;
-	word-spacing: 2em;
-}
-
-.center {
-	width: 100%;
-	margin-left: 6%;
-	margin-right: 6%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-
-.col1 {
-	width: 41%;
-	float: left;
-}
-
-.col2 {
-	width: 41%;
-	position: relative;
-	float: left;
-}
-
-h2 {
-	color: #663300;
-	font-family: verdana;
-	font-weight: bold 80%;
-	text-align: center;
-	font-size: 110%;
-	font-style: bold;
-	margin-bottom: 2%;
-}
-
-p {
-	font-family: serif;
-	text-align: center;
-	display: block;
-
-}
-
-#footer {
-	background-color: #220B02;
-	font-family: serif;
-	color: #b69f8a;
-	text-align: ;
-	text-align: center;
-	width:100%;
-}
 
 
 /***MEDIA SPECS***/
@@ -149,9 +105,3 @@ p {
 @media screen and (min-width:1000px) {
    
 }
-
-
-
-
-
-
