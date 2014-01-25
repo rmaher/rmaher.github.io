@@ -1,0 +1,22 @@
+body, ul, li, img {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #545454 url(images/bg.png);
+}
+
+#wizards {
+	width: 500px; margin: 200px auto;
+}
+
+#wizards li {
+	list-style: none; float: left; margin: 15px;
+}
+
+	#wizards a img {
+		border: 5px solid #aaa;
+	}
+		#wizards a:hover img {
+			border: 5px solid #75879d;
+		}

@@ -9,9 +9,9 @@
 	6a. designs
 	6b. photography
 	6c. illustrations
-	6d. CV
 7. contact - page specifc
-8. media specs
+8. footer
+9. media specs
 
 /*1*/
 /* HTML5 display-role reset for older browsers */
@@ -105,6 +105,7 @@ table {
 	text-align: center;
 	border-bottom: .5em solid black;
 	width: 100%;
+	margin-top: 1%;
 
 }
 
@@ -131,12 +132,13 @@ a:visited {
 
 a:hover {
 	color: #ac1e8a;
-	text-decoration: underline;
 }
 
 .logomain img{
 	width: 100%;
 	height: 25%;
+
+	
 }
 
 
@@ -153,28 +155,77 @@ a:hover {
 
 /*5* about - page specific*/
 
+#cvbody {
+	font-family: 'JosefinSans-Regular';
+	width: 100%;
+	min-height: 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+#cvbody img {
+	float: left;
+	width: 30%;
+	margin: 1%;
+
+}
+
+#cvbody h3 {
+	text-align: left;
+	font-size: 200%;
+	margin-top: 1%;
+	text-decoration: bold;
+}
+
+#cvbody h2 {
+	text-align: left;
+	font-size: 150%;
+	margin-left: 32%;
+
+}
+
+#cvbody p {
+	margin-left: 32%;
+}
+
+#cvpiece {
+	margin-bottom: 1%;
+}
+
+
+
+/*6* portfolio - page specific*/
+
 .logocity img {
 	width: 100%;
 	height: 15%;
 }
 
-/*6* portfolio - page specific*/
+#portpagenav li a {
+	text-align: center;
+	display: inline-block;
+}
+
 /*6a designs*/
 
 /*6b photography*/
 
-.photogrid img {
-width: 100%;
-max-width: 100%
-height: 100%;
+.js-masonry {
+	
 }
 
-	
-	
+#blocks img {
+	width: 98%;
+	margin-top: 40%;
+	margin-bottom: 20%;
+	margin-left: 15%;
+	height: 80%;
+
+}
+
+
 
 /*6c illustrations*/
-
-/*6d CV*/
 
 
 
@@ -188,14 +239,31 @@ height: 100%;
 
 }
 
-		#portpagenav li{
+		#portpagenav li {
 		display: inline-block;
 		font-size: 200%;
 		}
 
+/*8* footer*/
 
+#footer {
+   position: fixed;
+   bottom:0%;
+   height: 30%;
+   width:100%;
+   background: black;
+}
 
-/*8*/
+#footer p {
+	color: #A1A1A1;
+	font-family: 'JosefinSans-Regular';
+}
+
+#pagenav li{
+	display: inline-block;
+}
+
+/*9*/
 /***MEDIA SPECS***/
 
 /*mobile*/

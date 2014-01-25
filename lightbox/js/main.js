@@ -1,0 +1,3 @@
+$(function() {
+	$("#wizards a").lightBox();
+});

@@ -2,6 +2,15 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="rmaher.css"/>
+		<!--<script src="js/modernizr-2.5.3.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/jquery-1.7.1.min.js"></script>
+  		<script src="js/jquery.masonry.min.js"></script>
+  		<script src="js/script.js"></script>*/-->
+  		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  		<script src="http://22b8795554198d35581a-80a228ec17a148332a49b412ea7cb221.r85.cf2.rackcdn.com/commongoal.blocks-0.1.js"></script>
+		<script>
+		$(function(){var blocks = new Blocks(); blocks.setUpBlocks();});</script>
 		<title>portfolio</title>
 	</head>
 	<body>
@@ -19,8 +28,70 @@
 					<li><a href = "rdesigns.html">designs</a></li>
 					<li><a href = "rphotography.html">photography</a></li>
 					<li><a href = "rillustrations.html">illustrations</a></li>
-					<li><a href = "rcv.html">CV</a></li>
 		</ul>
+		<div id= "container" class="js-masonry" data-masonry-options='{ "columnWidth": 20, "item blockSelector": ".item block" }'>
+
+
+			<style>
+				.block {
+					position: absolute;
+					width: 230px;
+				}
+			</style>
+			 <div id="blocks">
+		        <div class="item block">  
+			        <img src="images/photogrid/ill1.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill2.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill3.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill4.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill5.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill6.jpg" alt=""/>
+		        </div>
+
+	        	<div class="item block">  
+			        <img src="images/photogrid/ill7.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill8.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill9.jpg" alt=""/>
+		        </div>
+
+		        <div class="item block">  
+			        <img src="images/photogrid/ill10.jpg" alt=""/>
+	        	</div>
+   			</div>
+			</div>
+			<footer id="footer">
+			<p>&#169;R.Maher</p>
+			<ul id ="pagenav">
+					<li><a href = "http://www.linkedin.com/pub/rachel-maher/17/622/842/"><img src="images/icons/linkedin-variation.png" alt="linkedin"/></a></li>
+					<li><a href = "https://twitter.com/RattleRattle"><img src="images/icons/twitter-variation.png" alt="twitter"/></a></li>
+					<li><a href = "http://www.pinterest.com/leegraves/boards/"><img src="images/icons/pinterest.png" alt="pinterest"/></a></li>
+					<li><a href = "http://instagram.com/rachelemaher"><img src="images/icons/instagram-variation.png" alt="instagram"/></a></li>
+					<li><a href = "https://plus.google.com/+RachelMaherUS/about"><img src="images/icons/gplus-variation2.png" alt="google+"/></a></li>
+					<li><a href = "https://github.com/rmaher"><img src="images/icons/github.png" alt="github"/></a></li>
+					<li><a href = "http://leecgraves.tumblr.com/"><img src="images/icons/tumblr-variation.png" alt="tumblr"/></a></li>
+			</ul>
+	</footer>
 	</div>
 	</body>
 </html>
